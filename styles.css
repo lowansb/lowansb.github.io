@@ -1,0 +1,197 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #6e45e2, #88d3ce);
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #88d3ce;
+}
+
+#about {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #6e45e2;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+#portfolio {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #6e45e2;
+}
+
+.portfolio-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.s, box-shadow 0.5s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  color: #6e45e2;
+  margin-bottom: 10px;
+}
+
+#contact {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #6e45e2;
+}
+
+#contact a {
+  color: #6e45e2;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#contact a:hover {
+  color: #88d3ce;
+}
+
+footer {
+  background: linear-gradient(90deg, #6e45e2, #88d3ce);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#about,
+#portfolio,
+#contact {
+  animation: fadeIn 1s ease-in-out;
+}
+#cv {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#cv h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #6e45e2;
+}
+
+#cv p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6e45e2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.cv{
+ border-radius: 15px;
+}
+
+.textes{
+text-shadow: 15px;
+font-size: medium;
+color: #ffffff;
+
+}
